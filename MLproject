@@ -9,6 +9,4 @@ entry_points:
       lr: {type: float, default: 0.1}
 
     command: |
-          python Titanic_Captum_Interpret.py \
-            --max_epochs {max_epochs} \
-            --lr {lr}
+          python Titanic_Captum_Interpret.py --max_epochs {max_epochs} --lr {lr}
